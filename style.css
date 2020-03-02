@@ -1,0 +1,375 @@
+body {
+  background-color: #edf1f4;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content-width {
+  width: 85%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 770px) {
+  header div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  #nav_item div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  #nav_item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+  }
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header ul li {
+    margin: auto;
+  }
+}
+
+header img {
+  width: 20px;
+}
+
+#bg {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+#login a {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+.banner p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 2%;
+}
+
+.banner img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  margin-top: 12%;
+}
+
+.search-restaurant {
+  margin: auto;
+}
+
+@media screen and (max-width: 770px) {
+  .pune {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+  }
+  #search-rest {
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+  #search-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #cb202d;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+}
+
+#search-btn:hover {
+  background-color: #660000;
+}
+
+@media only screen and (min-width: 770px) {
+  .pune {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #search-rest {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #search-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #cb202d;
+    color: white;
+    width: 40%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #ad {
+    display: none;
+  }
+}
+
+#ad {
+  width: 100%;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+}
+
+.collection {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  height: 140px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#all {
+  background-color: white;
+  padding: 2%;
+  text-align: center;
+  width: 100%;
+  color: #cb202d;
+  border-radius: 5px;
+}
+
+#all:hover {
+  color: #660000;
+}
+
+.order {
+  height: 100%;
+}
+
+.widget {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.widget p {
+  color: #099E44;
+  margin: 10%;
+  margin-bottom: 100px;
+}
+
+.widget .search-del {
+  width: 75%;
+  margin-left: 2%;
+}
+
+.widget .order-btn {
+  width: 90%;
+  border-radius: 10px;
+  background-color: #099E44;
+  color: white;
+  padding: 2%;
+  margin: 10px;
+}
+
+.order-btn:hover {
+  background-color: #066e2f;
+}
+
+#swapnil {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#swapnil a {
+  display: block;
+  margin: 10px;
+  color: #cb202d;
+  text-align: center;
+}
+
+#swapnil a:hover {
+  color: #660000;
+}
+
+.category-list {
+  background-color: white;
+}
+
+.category-list div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.category-list div li {
+  margin-right: auto;
+}
+
+.category-list div li img {
+  width: 70px;
+}
+
+.localities-list {
+  background-color: white;
+}
+
+.localities-list div {
+  padding-bottom: 10px;
+}
+
+.localities-list li {
+  text-align: center;
+}
+
+.app {
+  background-color: white;
+}
+
+.app div button {
+  background-color: #099E44;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.app div button:hover {
+  background-color: #066e2f;
+}
+
+.iphone {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.zomato-app p {
+  margin-top: 3%;
+}
+
+.number {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: .5px solid black;
+  padding: 10px;
+}
+
+.number-1 {
+  padding: 10px;
+  width: 45%;
+}
+
+.email {
+  padding: 10px;
+  width: 55%;
+}
+
+.pay {
+  margin-top: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.pay-apple {
+  margin-left: 0;
+  width: 30%;
+}
+
+.pay-google {
+  margin-left: 2%;
+  width: 30%;
+}
+
+.visitors {
+  color: #999;
+}
+
+@media only screen and (max-width: 768px) {
+  .visitors {
+    display: none;
+  }
+}
+
+footer {
+  background-color: black;
+  color: #999;
+  margin-top: 10px;
+}
+
+.footer-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.footer-1 img {
+  width: 100px;
+}
+
+.down-drop {
+  margin-top: 20px;
+  float: right;
+}
+
+.footer-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-3 li {
+  margin: 1%;
+}
+
+.footer-3 li a {
+  color: #999;
+}
+
+.social-plugin {
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hr {
+  border: 1px solid  #999;
+}
+/*# sourceMappingURL=style.css.map */
