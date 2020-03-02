@@ -1,1 +1,345 @@
-<!-- In this file you are going to write html code -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Zomato Replica</title>
+        <meta name="Zomato Replica" content="There’s Up To ₹100 Off On The Hottest Dishes, When You Order Online On Zomato. Enjoy All Your Favourite Cuisines At Up To 50% Off, When You Order Online On Zomato. Limitless Options. COD Available. Super Quick Delivery. Unlimited Choices. Trusted Zomato Ratings.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="h-container">
+            <div id="nav_item">
+                <div><a href="#"><img src="get-the-app-plain.svg"> the app</a></div>
+                <ul>
+                    <li><a href="#" class="nav_item_1"><img src="order-online.svg"> Order Food </a></li>
+                    <li><a href="#" class="nav_item_2"><img src="book-a-table.svg"> Book a Table</a></li>
+                    <li><a href="#" class="nav_item_3"><img src="gold.svg"> Gold</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="bg">
+            <div id="login">
+                <a href="#">Log in</a>
+                <a class="border rounded border-light" href="#">Create an account</a>  
+            </div>
+            <br>
+            <section class="banner">
+                <div>
+                    <img src="zomato_flat_bg_logo.svg">
+                    <p>Find the best restaurants, cafés, and bars in Pune</p>
+                </div>
+                <div class="row  search-restaurant">
+                    <div class="dropdown col-sm-12 col-lg-4 ">
+                        <button class="btn btn-light dropdown-toggle float-lg-right float-sm-center pune" type="button" data-toggle="dropdown">Pune
+                        </button>
+                        <ul class="dropdown-menu">
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 ">
+                        <input id="search-rest" type="text" placeholder="Search for restaurants or cuisines...">
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <button id="search-btn">Search</button> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="content-width">
+          <div class="row">
+                <div class="col-lg-8">
+                       <h4>Collections</h4>
+                       <p>Export curted lists of top restaurants, cafes, pubs and bars in Pune, based on trends</p>
+                       <img id="ad" src="ad-zomaland.jpeg">
+                    <div>
+                       <div class="row">
+                          <div class="col-lg-6">
+                              <div class="collection">
+                                   <img src="trending.jpg">
+                                 <div>
+                                     <h5><strong>Trending This Week</strong></h5>
+                                     <p >Most popular restaurants in town this weak</p>  
+                                 </div> 
+                              </div>
+                         </div>
+                         <div class="col-lg-6">
+                             <div class="collection">
+                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSte818-CQXKFbzDe1oBpYhqkR7-4Kn1W5ycy9kmWkHD9Ag3y_W">
+                                 <div>
+                                      <h5><strong>Pune's Finest</strong></h5>
+                                      <p>The hunt for the highest-rated restaurants in your city ends here</p> 
+                                  </div>
+                              </div>
+                         </div>   
+                       </div>
+                       <div class="row">
+                          <div class="col-lg-6">
+                              <div class="collection">
+                                 <img src="open.jpg">
+                                 <div>
+                                     <h5><strong>Newly Opened</strong></h5>
+                                     <p>The best new places in town</p>  
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 ">
+                               <div class="collection">
+                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2E-1y1GBqu1DhWmwa_5Q0D0JhqmVOzFb8Wff25xPU73k9VqGE">
+                                 <div>
+                                     <h5><strong>Rooftops</strong></h5>
+                                     <p>If you fancy a with a view</p>
+                                  </div>
+                               </div>
+                         </div> 
+                     </div>
+                       <p id="all">All collections in pune</p>
+                   </div>
+              </div>
+              <div class="col-lg-4 order">
+                 <h4>Order Food Online</h4>
+                 <p>Best restaurants delivering to your doorstep</p>
+                 <div>
+                     <div class="widget">
+                          <h5>Enter your delivery location</h5>
+                          <input class="search-del" type="text" placeholder="Type delivery location here">
+                          <button class="detect-btn">Detect</button>
+                          <br>
+                          <button class="order-btn">Order Food Online!</button>
+                          <p>Use code <strong>ZOMATO</strong> to get up to 50% OFF. T&Cs apply.</p>
+                     </div>
+                     <div>
+                         <h4>Swapnil</h4>
+                         <p>Thanks for being our regular customer. We hope you are enjoying our services </p>
+                         <div id="swapnil">
+                             <a href="#">About Swapnil</a>
+                             <a href="#">History</a>
+                             <a href="#">Payment Details</a>
+                             <a href="#">coupons</a>
+                             <a href="#">notification</a>
+                         </div>
+                     </div>
+                 </div>    
+              </div>
+          </div>
+              <section class="categories">
+                  <h4 id="cat-title">Quick Searches</h4>
+                  <p id="cat-subtitle">Discover restaurants by type of meal</p>
+                  <ul class="row category-list">
+                      <div class="col-lg-6 col-sm-12">
+                        <li>
+                            <img src="delivery.png">
+                            <p>Delivery</p>
+                        </li>
+                        <li>
+                          <img src="dinner.png">
+                          <p>dinner</p>
+                        </li>
+                        <li>
+                            <img src="pocket-friendly-delivery.png">
+                            <p>Friendly Delivery</p>
+                        </li>
+                        <li>
+                            <img src="breakfast.png">
+                            <p>Breakfast</p>
+                        </li>
+                      </div>
+                     <div class="col-lg-6 col-sm-12">
+                        <li>
+                            <img src="lunch.png">
+                            <p>Lunch</p>
+                        </li>
+                        <li>
+                            <img src="drinks.png">
+                            <p>Drinks & Nightlife</p>
+                        </li>
+                        <li>
+                            <img src="cafes.png">
+                            <p>Cafes</p>
+                        </li>
+                        <li>
+                            <img src="desserts.png">
+                            <p>Desserts & Bakes</p>
+                        </li>
+                     </div>
+                  </ul>
+              </section>
+              <section class="localities">
+                  <h4 id="loc-title">Popular localities in and around Pune</h4>
+                  <p id="loc-subtitle">Explore restaurants, bars, and cafés by locality</p>
+                  <ul class="row localities-list">
+                      <div class="col-lg-4">
+                        <li>Hinjawadi <span>(743 places)</span></li>
+                        <li>Wakad <span>(765 places)</span></li>
+                        <li>Kalyani Nagar <span>(166 places)</span></li>
+                        <li>Aundh <span>(373 places)</span></li>
+                      </div>
+                      <div class="col-lg-4">
+                        <li>Hadapser <span>(811 places)</span></li>
+                        <li>Magarpatha <span>(238 places)</span></li>
+                        <li>Shivaji Nagar <span>(181 places)</span></li>
+                        <li>Camp Area <span>(224 places)</span></li>
+                      </div>
+                      <div class="col-lg-4">
+                        <li>Hadapser <span>(811 places)</span></li>
+                        <li>Magarpatha <span>(238 places)</span></li>
+                        <li>Shivaji Nagar <span>(181 places)</span></li>
+                        <li>Camp Area <span>(224 places)</span></li>
+                      </div>
+                  </ul>
+              </section> 
+              <div class="row app">
+                  <div class="col-lg-6  col-sm-12">
+                    <img class="iphone" src="iphone.png">
+                  </div>
+                  <div class="col-lg-6 col-sm-12 zomato-app">
+                      <h4>Get the Zomato app</h4>
+                      <p>See menus and photos for near by your restaurants and bookmark your favorite places on the go</p>
+                      <p><strong>We'll send you a link, open it on your phone to download the app </strong></p>
+                      <p class="number">+91</p>
+                      <input class="number-1" type="text" placeholder="Enter phone number">
+                      <button>Text App Link</button>
+                      <p>OR</p>
+                      <input class="email" type="text" placeholder="Enter your Email id">
+                      <button>Email App Link</button>
+                      <br>
+                      <div class="row pay">
+                            <img class="pay-apple" src="applestore.png">
+                            <img class="pay-google" src="googleplay.png"> 
+                      </div>
+                  </div>
+              </div> 
+              <div class="row text-center visitors">
+                     <div class="col-lg-2" >
+                        <h1>24</h1>
+                        <p>Countries</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <h1>1.5M</h1>
+                        <p>Restaurants</p>
+                      </div>  
+                    <div class="col-lg-2">
+                        <h1>120M</h1>
+                        <p>Foodies Every Month</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <h1>30M</h1>
+                        <p>Photos</p>
+                      </div>  
+                      <div class="col-lg-2">
+                        <h1>10M</h1>
+                        <p>Reviews</p>
+                      </div>
+                     <div class="col-lg-2">
+                       <h1>18M</h1>
+                       <p>Bookmarks</p>
+                      </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="down-drop dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Pune
+                   </button>
+                    <ul class="dropdown-menu">
+                    </ul>
+                  </div>
+                <div class="footer-1">
+                    <img src="zomato_flat_bg_logo.svg">
+                </div>
+                <hr class="hr">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <h5>About Zomato</h5>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Culture</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5>For Foodies</h5>
+                        <ul>
+                            <li>Code of Contact</li>
+                            <li>Community</li>
+                            <li>Verified User</li>
+                            <li>Blogger Help</li>
+                            <li>Developers</li>
+                            <li>Mobile Apps</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h5>For restaurants</h5>
+                        <ul>
+                            <li>Add a restaurants</li>
+                            <li>Claim your listings</li>
+                            <li>Business App</li>
+                            <li>Business Owner Guidlines</li>
+                            <li>Business Blog</li>
+                            <li>Restaurants Widgets</li>
+                            <li>Products For Business</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <ul>
+                            <li>Advertise</li>
+                            <li>Order</li>
+                            <li>Book</li>
+                            <li>Trace</li>
+                            <li>Hyperpure</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>Countries</h5>
+                    <ul class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <li>Australia</li>
+                            <li>Brasil</li>
+                            <li>Canada</li>
+                            <li>Chile</li>
+                        </div>
+                        <br>
+                        <div class="col-lg-3 col-sm-6">
+                            <li>India</li>
+                            <li>Indonesia</li>
+                            <li>Irland</li> 
+                        </div>
+                        <br>
+                        <div class="col-lg-3 col-sm-6">
+                            <li>Italy</li>
+                            <li>lebanon</li>
+                            <li>Srilanka</li>
+                        </div>
+                        <br>
+                        <div class="col-lg-3 col-sm-6">
+                            <li>Poland</li>
+                            <li>New Zealand</li>
+                            <li>Portugal</li>
+                        </div>
+                    </ul>
+                </div>
+                <hr class="hr">
+                <div class="row">
+                    <ul class="col-lg-9 col-sm-9 footer-3">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">API Policy</a></li>
+                        <li><a href="#">CSR</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                    <img class="col-lg-2 col-sm-2 social-plugin" src="social.png">
+                </div>
+                <hr class="hr">
+                <p>By continuing past this page, you agree to our terms of services, coockies policy, privacy policy and content policies. All trademarks are properties of their respective owners 2008-2019 ZOMATO media pvt Ltd. All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
